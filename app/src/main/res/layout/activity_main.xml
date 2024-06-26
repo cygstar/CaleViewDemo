@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/full"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Full" />
+
+            <Button
+                android:id="@+id/simple"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Simple" />
+
+            <Button
+                android:id="@+id/custom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Custom" />
+
+            <Button
+                android:id="@+id/color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Color" />
+
+            <Button
+                android:id="@+id/index"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Index" />
+
+            <Button
+                android:id="@+id/meizu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Meizu" />
+
+            <Button
+                android:id="@+id/mix"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mix" />
+
+            <Button
+                android:id="@+id/multi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Multi" />
+
+            <Button
+                android:id="@+id/progress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Progress" />
+
+            <Button
+                android:id="@+id/range"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Range" />
+
+            <Button
+                android:id="@+id/single"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Single" />
+
+            <Button
+                android:id="@+id/solar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Solar" />
+
+            <Button
+                android:id="@+id/page"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="32dp"
+                android:text="Page" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
